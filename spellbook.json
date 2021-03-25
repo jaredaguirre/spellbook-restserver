@@ -1,0 +1,417 @@
+{
+    "source":"https://harrypotter.fandom.com/wiki/List_of_spells",
+    "spells":[
+        {
+            "id":"aberto",
+            "name":"Aberto",
+            "description": "A spell used to open doors",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"accio",
+            "name":"Accio",
+            "description": "Summons an object towards the caster",
+            "type":[
+                "Charm"
+            ]
+        },
+        {
+            "id":"age-line",
+            "name":"(Age Line)",
+            "description": "Prevents people above or below a certain age from access to a target.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"aguamenti",
+            "name":"Aguamenti",
+            "description": "Produces a clean, drinkable jet of water from the wand tip",
+            "type": [
+                "Charm", 
+                "Conjuration"
+            ]
+        },
+        {
+            "id":"alarte-ascendare",
+            "name":"Alarte Ascendare",
+            "description": "Shoots the target high into the air.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"dumbledore-forceful-spell",
+            "name":"(Dumbledore's forceful spell)",
+            "description": "This spell was, supposedly, quite powerful as when it was cast, the opponent was forced to conjure a silver shield to deflect it.",
+            "type": [
+                "Spell"
+            ]
+        },
+        {
+            "id":"alohomora",
+            "name":"Alohomora",
+            "description": "Unlocks doors and other locked objects.[7] It can also unlock doors that have been sealed with a Locking Spell, although it is possible to bewitch doors to become unaffected by this spell.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"amato-animo-animato-animagus",
+            "name":"Amato Animo Animato Animagus ",
+            "description": "Spell used as part of the process of becoming an Animagus. The incantation has to be recited at sunrise and sundown, every day before the consumption of the Animagus Potion. The incantation is also recited just prior to the consumption of the potion, which has to take place just after a lightning storm starts. The incantation is recited while placing the wand's tip over one's heart.",
+            "type": [
+                "Transfiguration"
+            ]
+        },
+        {
+            "id":"anapneo",
+            "name":"Anapneo",
+            "description": "Clears the target's airway if they are choking on something.",
+            "type": [
+                "Healing Spell",
+                "Vanishment"
+            ]
+        },
+        {
+            "id":"anteoculatia",
+            "name":"Anteoculatia",
+            "description": "Causes the target to grow antlers",
+            "type": [
+                "Dark Charm"
+            ]
+        },
+        {
+            "id":"anti-cheating-spell",
+            "name":"(Anti-Cheating Spell)",
+            "description": "Used to prevent cheating.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"anti-disapparition-jinx",
+            "name":"(Anti-Disapparition Jinx)",
+            "description": "Prevents Disapparation in an area. It is used to entrap an enemy in an area.",
+            "type": [
+                "Jinx"
+            ]
+        },
+        {
+            "id":"anti-intruder-jinx",
+            "name":"(Anti-intruder Jinx)",
+            "description": "Prevents intruders from entering an area.",
+            "type": [
+                "Jinx"
+            ]
+        },
+        {
+            "id":"dolohovs-curse",
+            "name":"(Dolohov's curse)",
+            "description": "An unknown curse that causes injuries that are capable of killing with enough power.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"aparecium",
+            "name":"Aparecium",
+            "description": "Reveals secret messages written in invisible ink, or any other hidden markings. Also works against Concealing charms",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"apare-vestigium",
+            "name":"Appare Vestigium",
+            "description": "Reveals traces of magic, including footprints and track marks.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"apparition",
+            "name":"(Apparition)",
+            "description": "Magically transports the caster to another location instantaneously. The destination is one that the primary user has been to or seen in some fashion previously. Can be used to apparate multiple people at once if holding each other. No incantation required.",
+            "type": [
+                "Transportation"
+            ]
+        },
+        {
+            "id":"aqua-eructo",
+            "name":"Aqua Eructo",
+            "description": "This spell is used to create, and control, a jet of clear water from the tip of the wand; it is probably related to Aguamenti.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"arania-exumai",
+            "name":"Arania Exumai",
+            "description": "Drives away spiders, including Acromantulas.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"arresto-momentum",
+            "name":"Arresto Momentum ",
+            "description": "Decreases the velocity of a moving target. Can be used on multiple targets, as well as on the caster themselves.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"arrow-shooting-spell",
+            "name":"(Arrow-shooting spell)",
+            "description": "Fires arrows from the caster's wand.",
+            "type": [
+                "Conjuration"
+            ]
+        },
+        {
+            "id":"ascendio",
+            "name":"Ascendio",
+            "description": "Lifts the caster high into the air. The charm also works underwater, propelling the caster above the surface",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"avada-kedavra",
+            "name":"Avada Kedavra",
+            "description": "Causes instantaneous death. It is accompanied by a flash of green light and a rushing noise. There is no known counter-curse that can protect the victim from dying, except for a loving sacrifice. It is one of the three Unforgivable Curses.",
+            "type": [
+                "Curse"
+            ]
+        },
+        {
+            "id":"avifors",
+            "name":"Avifors",
+            "description": "Transforms the target into a bird.",
+            "type": [
+                "Transfiguration"
+            ]
+        },
+        {
+            "id":"avenseguim",
+            "name":"Avenseguim",
+            "description": "Turns an object into a tracking device",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"avis",
+            "name":"Avis",
+            "description": "Conjures a flock of birds from the tip of the wand. When used in conjunction with Oppugno, it can be used offensively.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"babbling-curse",
+            "name":"(Babbling Curse)",
+            "description": "Causes uncontrollable babbling.",
+            "type": [
+                "Curse"
+            ]
+        },
+        {
+            "id":"badgering",
+            "name":"(Badgering)",
+            "description": "Turns things into badgers.",
+            "type": [
+                "Transfiguration"
+            ]
+        },
+        {
+            "id":"bat-bogey-hex",
+            "name":"(Bat-Bogey Hex)",
+            "description": "Transforms the target's bogeys into large bats that fly out of the victim's nose.",
+            "type": [
+                "Hex"
+            ]
+        },
+        {
+            "id":"baubillious",
+            "name":"Baubillious",
+            "description": "The exact effects of the spell are unknown, though it presumably is of damaging nature and it produces a bolt of white light from the tip of the wand.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"bedazzling-hex",
+            "name":"(Bedazzling Hex)",
+            "description": "Allows the caster to disguise things.",
+            "type": [
+                "Hex"
+            ]
+        },
+        {
+            "id":"bewitched-snowballs",
+            "name":"(Bewitched Snowballs)",
+            "description": "Causes snowballs to pelt themselves at the target.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"bluebell-flames",
+            "name":"(Bluebell Flames)",
+            "description": "Produces magical blue flames that can be held in a jar. Not as dangerous as real fire, these magical flames can be touched, penetrated and held without it burning the holder, though it is known to singe materials such as clothing and plants",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"blue-sparks",
+            "name":"(Blue sparks)",
+            "description": "Jet of blue sparks. It can be used offensively as a minor duelling spell.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"bombarda",
+            "name":"Bombarda",
+            "description": "Provokes a small explosion.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"bombarda-maxima",
+            "name":"Bombarda Maxima",
+            "description": "Creates a large explosion capable of removing entire walls. A more advanced and more powerful form of the Exploding Charm, 'Bombarda'.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"Brackium Emendo",
+            "name":"Brackium Emendo",
+            "description": "If used correctly, it is claimed that this spell will heal broken bones; this theory is supported by the etymology.",
+            "type": [
+                "Charm",
+                "Healing Spell"
+            ]
+        },
+        {
+            "id":"bravery-charm",
+            "name":"(Bravery Charm)",
+            "description": "Increases the bravery of a teammate, increasing their performance against certain foes.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"bridge-conjuring-spell",
+            "name":"(Bridge-conjuring spell)",
+            "description": "Conjure a bridge from thin air.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"broom-jinx",
+            "name":"(Broom jinx)",
+            "description": "Used to make broomsticks try to throw their riders off through a variety of means such as sudden lurches and violent swishing movements. Constant eye contact is needed for the jinx to keep working",
+            "type": [
+                "Jinx"
+            ]
+        },
+        {
+            "id":"bubble-head-charm",
+            "name":"(Bubble-Head Charm)",
+            "description": "Produces a large bubble of air around the head of the user; it is commonly used as the supernatural equivalent of a breathing set.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"bubble-spell",
+            "name":"(Bubble Spell)",
+            "description": "Produces a stream of non-bursting bubbles from the wand tip.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"calvorio",
+            "name":"Calvorio",
+            "description": "Removes the victim's hair.",
+            "type": [
+                "Curse"
+            ]
+        },
+        {
+            "id":"cantis",
+            "name":"Cantis",
+            "description": "Causes the victim to burst uncontrollably into song.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"capacious-extremis",
+            "name":"Capacious extremis",
+            "description": "Expands the internal dimensions of an object without affecting the external dimensions, enhancing its capacity, and rendering its contents lighter.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"carpe-retractum",
+            "name":"Carpe Retractum",
+            "description": "Produces a rope of light used to pull objects towards the caster, or, if the target is fixed in place, to pull the caster towards the target.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"cave-inimicum",
+            "name":"Cave inimicum",
+            "description": "Produces a boundary that keeps the caster hidden from others.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"circumrota",
+            "name":"Circumrota",
+            "description": "Rotates objects.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"cistem-aperio",
+            "name":"Cistem Aperio",
+            "description": "Opens chests and boxes.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"colloportus",
+            "name":"Colloportus",
+            "description": "Locks doors and all things that can be locked. It is the counter-charm to the Unlocking Spell.",
+            "type": [
+                "Charm"
+            ]
+        },
+        {
+            "id":"colloshoo",
+            "name":"Colloshoo",
+            "description": "Sticks the target's shoes to the ground.",
+            "type": [
+                "Charm"
+            ]
+        }
+        
+    ]
+}

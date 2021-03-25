@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>The Wizard's Spellbook API | Docs</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+        type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar navbar-light bg-light static-top">
+        <div class="container btn-toolbar justify-content-between " role="toolbar">
+            <div class="btn-group">
+                <a class="navbar-brand" href="index.html">The Wizard's Spellbook API</a>
+            </div>
+            <div class="btn-group ">
+                <a class="btn btn-outline-dark" href="#">Go to my resume</a>
+                <a class="btn btn-outline-dark " data-toggle="modal" data-target="#aboutInfo">About</a>
+                <a class="btn btn-outline-dark" href="index.html">Home</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Modal -->
+    <div class="modal fade" id="aboutInfo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">About this</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Created by Jared Aguirre in order to make a sample of the basic knowledge of RESTful API
+                    development.
+                    Harry Potter and some spell names are trademarks of Warner Bros.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Text Section -->
+    <section class="showcase">
+        <div class="container ml-5">
+
+            <div class="row no-gutters mb-5 mt-4">
+                    <div>
+    
+                        <h4 class="mb-4">Information</h4>
+                        <p class="lead mb-2">This is a consumption-only API — That means that only the HTTP GET method is available on resources.</p>
+                        <p class="lead mb-0">No authentication is required to access this API, and all resources are fully open and available.</p>
+                    </div>
+    
+            </div>
+
+            <div class="row no-gutters mb-5">
+                    <div>
+                        <h4 class="mb-4">General Resources</h4>
+                        <p class="lead mb-0">Calling the API endpoint without a resource ID or name will return a paginated list of available 
+                            resources. This is a view of all the information that you can get from it:</p>
+                    </div>
+
+                    <table class="table">
+                            <thead>
+                              <tr>
+                                
+                                <th scope="col">Name</th>
+                                <th scope="col">Description</th>
+                                <th scope="col">Type</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                
+                                <td>id</td>
+                                <td>This is the unique indentifier used to perform the query searches</td>
+                                <td>string</td>
+                            
+                              </tr>
+                              <tr>
+                                
+                                <td>name</td>
+                                <td>The well-formatted identifier name that include spaces</td>
+                                <td>string</td>
+                              </tr>
+                              <tr>
+                                
+                                <td>description</td>
+                                <td>Contains a brief description of the spell use</td>
+                                <td>string</td>
+                              </tr>
+                              <tr>
+                                
+                                <td>type</td>
+                                <td>Indicates the type of spell. There is a total of eight: 'Modifiers', 'Charm', 'Transfiguration',
+                                        'Curses','Hexes','Jinxes','Healing Spells'.
+                                </td>
+                                <td>string</td>
+                                </tr>
+                            </tbody>
+                          </table>
+    
+            </div>
+
+            
+
+            <div class="row no-gutters mb-5">
+                    <div>
+                        <h4 class="mb-5">Example GET resource</h4>
+                        <label>GET</label>
+                        <h6 class="mb-5">http://localhost:8080/api/spellbook?id={spell-name}</h6>
+
+                        <samp class="mb-5">Example: http://localhost:8080/api/spellbook?id=avada-kedavra</samp>
+                        
+                    </div>
+                    
+    
+            </div>
+            <pre class="pre-scrollable" style="background-color:white;">
+            <code >// 20210324004550
+            // http://localhost:8080/api/spellbook?spell=avada-kedavra
+            {
+                "id": "avada-kedavra",
+                "name": "Avada Kedavra",
+                "description": "Causes instantaneous death. It is accompanied by a flash of green light...",
+                "type": [
+                "Curse"
+                ]
+            }</code></pre>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="modal" data-target="#aboutInfo">About</a>
+                        </li>
+                        <li class="list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
+                            <a href="mailto: jaredaguirre82@gmail.com">Contact</a>
+                        </li>
+                        <li class="list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
+                            <a href="#">My Resume</a>
+                        </li>
+                        <li class="list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                    </ul>
+                    <p class="text-muted small mb-4 mb-lg-0">&copy; designed by Jared Aguirre | 2021. All Rights
+                        Reserved.</p>
+                </div>
+                <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item mr-3">
+                            <a href="https://www.facebook.com/jared.aguirre.9/">
+                                <i class="fab fa-facebook fa-2x fa-fw"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/jared-aguirre-42a82b127/">
+                                <i class="fab fa-linkedin fa-2x fa-fw"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
